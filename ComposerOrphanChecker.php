@@ -114,7 +114,7 @@ class Lockfile
             return $package->__toString();
         }, $orphanPackages);
 
-        return $orphanPackageNames;
+        return array_keys($orphanPackageNames);
     }
 }
 
