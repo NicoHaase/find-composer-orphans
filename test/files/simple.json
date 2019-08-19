@@ -1,0 +1,5 @@
+{
+    "require": {
+        "nicohaase/twig-isbn-formatter": "0.1.*"
+    }
+}

@@ -1,0 +1,15 @@
+language: php
+sudo: false
+
+install:
+  - wget -O phpunit https://phar.phpunit.de/phpunit-8.phar
+  - chmod +x phpunit
+
+script:
+  - ./phpunit
+
+php:
+  - '7.1'
+  - '7.2'
+  - '7.3'
+
